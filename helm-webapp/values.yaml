@@ -4,7 +4,7 @@ configmap:
   name: myhelmapp-configmap-v1
   data:
     CUSTOM_HEADER: 'This app was deployed with helm!'
-    WELCOME_MSG: Welcome to NGINX on ROSA
+    WELCOME_MSG: 'Welcome to NGINX on ROSA'
 image:
   name: eyesoncloud/webapp
   tag: 34
