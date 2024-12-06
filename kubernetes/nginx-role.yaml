@@ -1,0 +1,17 @@
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: nginx-role
+  namespace: nginx-27074
+rules:
+  - apiGroups:
+      - ''
+    resources:
+      - pods
+      - services
+    verbs:
+      - get
+      - watch
+      - list
+    
