@@ -7,4 +7,4 @@ configmap:
     WELCOME_MSG: Welcome to NGINX on ROSA
 image:
   name: eyesoncloud/webapp
-  tag: 33
+  tag: 34
